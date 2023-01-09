@@ -26,6 +26,10 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "nguyenanhung/web-builder-platforms-base-core": "^1.0"
+    },
+    "require-dev": {
+        "symfony/polyfill": "^1.26",
         "nguyenanhung/my-debug": "^3.0 || ^2.0 || ^1.0",
         "nguyenanhung/my-cache": "^3.0 || ^2.0 || ^1.0",
         "nguyenanhung/database": "^3.0 || ^2.0 || ^1.0",
@@ -35,11 +39,8 @@
         "nguyenanhung/seo": "^3.0 || ^2.0 || ^1.0",
         "nguyenanhung/monitor": "^3.0 || ^2.0 || ^1.0",
         "nguyenanhung/web-builder-helper": "^1.0",
-        "nguyenanhung/web-builder-templates": "^1.0"
-    },
-    "require-dev": {
+        "nguyenanhung/web-builder-templates": "^1.0",
         "nguyenanhung/image": "^3.0 || ^2.0 || ^1.0",
-        "symfony/polyfill": "^1.26",
         "tramtro/make-some-noise": "^1.0"
     },
     "autoload": {
