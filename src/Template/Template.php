@@ -8,7 +8,7 @@
  * Time: 01:03
  */
 
-namespace nguyenanhung\WebBuilderModules\Platforms\Your_Module\Template;
+namespace nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Template;
 
 use Twig\Loader\FilesystemLoader as Twig_Loader_FilesystemLoader;
 use Twig\Environment as Twig_Environment;
@@ -26,7 +26,7 @@ class Template
      */
     public static function getTemplatesPath()
     {
-        return realpath(__DIR__ . '/../templates');
+        return realpath(__DIR__ . '/../../templates');
     }
 
     /**
@@ -59,9 +59,9 @@ class Template
     public static function render(string $template = '', array $data = []): string
     {
         $templatesPath = realpath(__DIR__ . '/../../templates');
-        $loader        = new Twig_Loader_FilesystemLoader($templatesPath);
-        $twig          = new Twig_Environment($loader);
-        $templateFile  = $template . '.html';
+        $loader = new Twig_Loader_FilesystemLoader($templatesPath);
+        $twig = new Twig_Environment($loader);
+        $templateFile = $template . '.html';
 
         return $twig->render($templateFile, $data);
     }
@@ -80,7 +80,7 @@ class Template
     public static function nativeRender(string $template = '', array $data = []): string
     {
         $templatesPath = realpath(__DIR__ . '/../../templates');
-        $templates     = new League_Plates_Engine($templatesPath);
+        $templates = new League_Plates_Engine($templatesPath);
 
         return $templates->render($template, $data);
     }

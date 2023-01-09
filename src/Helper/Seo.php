@@ -1,6 +1,6 @@
 <?php
 
-namespace nguyenanhung\WebBuilderModules\Platforms\Your_Module\Helper;
+namespace nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Helper;
 
 use nguyenanhung\SEO\SeoUrl;
 

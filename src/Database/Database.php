@@ -1,22 +1,19 @@
 <?php
 
-namespace nguyenanhung\WebBuilderModules\Platforms\Your_Module\Database;
+namespace nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Database;
 
-use nguyenanhung\WebBuilderModules\Platforms\Your_Module\Base\BaseCore;
-use nguyenanhung\WebBuilderModules\Platforms\Your_Module\Database\Traits\SignatureTable;
+use nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Base\BaseCore;
 use nguyenanhung\MyDatabase\Model\BaseModel;
 
 /**
  * Class Database
  *
- * @package   nguyenanhung\WebBuilderModules\Platforms\Your_Module\Database
+ * @package   nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Database
  * @author    713uk13m <dev@nguyenanhung.com>
  * @copyright 713uk13m <dev@nguyenanhung.com>
  */
 class Database extends BaseCore
 {
-    use SignatureTable;
-
     /** @var array $database */
     protected $database;
 

@@ -1,14 +1,16 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-web-builder-sdk-module",
-    "description": "Structure Repository Template for Web Builder Module Service Package",
+    "name": "nguyenanhung/web-builder-platforms-base-components",
+    "description": "Web Builder Platforms - Base Components",
     "keywords": [
-        "frontend",
+        "web builder sdk",
+        "web builder platforms",
+        "web builder components",
         "helper",
         "library",
         "php"
     ],
-    "homepage": "https://github.com/nguyenanhung/template-web-builder-sdk-module",
+    "homepage": "https://github.com/nguyenanhung/web-builder-platforms-base-components",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -42,7 +44,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\WebBuilderModules\\Platforms\\Your_Module\\": "src/"
+            "nguyenanhung\\WebBuilderModules\\Platforms\\BaseComponents\\": "src/"
         },
         "files": [
             "helpers/helpers.php"

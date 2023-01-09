@@ -1,6 +1,6 @@
-# Web Builder SDK Module - Template
+# Web Builder SDK Module - Base Components
 
-Base Module for Web Builder SDK
+Base Components for Web Builder SDK
 
 ## Contact & Support
 
