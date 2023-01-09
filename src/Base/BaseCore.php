@@ -2,12 +2,7 @@
 
 namespace nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Base;
 
-use nguyenanhung\MyDebug\Benchmark;
-use nguyenanhung\MyDebug\Logger;
-use nguyenanhung\MyCache\Cache;
-use nguyenanhung\MyRequests\MyRequests;
 use nguyenanhung\WebBuilderModules\Platforms\BaseCore\Base\BaseCore as PlatformsBaseCore;
-use nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Helper\Helper;
 use nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Template\Template;
 
 /**
@@ -21,7 +16,7 @@ use nguyenanhung\WebBuilderModules\Platforms\BaseComponents\Template\Template;
  */
 class BaseCore extends PlatformsBaseCore
 {
-    const VERSION = '1.0.1';
+    const VERSION = '1.0.2';
     const KEY_DATABASE = 'DATABASE';
     const KEY_OPTIONS = 'OPTIONS';
     const KEY_AUTH = 'AUTH';
